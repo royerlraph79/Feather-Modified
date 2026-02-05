@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "[%lld]" : {
+
+    },
     "%lld Apps" : {
       "comment" : "Repository app count",
       "extractionState" : "manual",
@@ -324,6 +327,16 @@
         }
       }
     },
+    "%lld of %lld selected" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld of %2$lld selected"
+          }
+        }
+      }
+    },
     "%lld required system dylibs not shown." : {
       "comment" : "Number of macho load paths not listed for safety",
       "extractionState" : "manual",
@@ -503,6 +516,22 @@
           }
         }
       }
+    },
+    "%lld%%" : {
+
+    },
+    "%lld×%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld×%2$lld"
+          }
+        }
+      }
+    },
+    "•" : {
+
     },
     "💜 This couldn't of been done without my sponsors!" : {
       "extractionState" : "manual",
@@ -1550,6 +1579,15 @@
         }
       }
     },
+    "Are you sure you want to delete the selected file%@? This action cannot be undone." : {
+
+    },
+    "Array" : {
+
+    },
+    "Back" : {
+
+    },
     "Bad Password" : {
       "comment" : "Bad certificate password",
       "extractionState" : "manual",
@@ -1751,6 +1789,9 @@
           }
         }
       }
+    },
+    "Boolean" : {
+
     },
     "Bug Report" : {
       "extractionState" : "manual",
@@ -2223,6 +2264,9 @@
           }
         }
       }
+    },
+    "Change File Extension?" : {
+
     },
     "Check Revokage" : {
       "extractionState" : "manual",
@@ -2922,6 +2966,9 @@
         }
       }
     },
+    "Data" : {
+
+    },
     "Date" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3300,6 +3347,9 @@
         }
       }
     },
+    "Delete File%@?" : {
+
+    },
     "Description" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3335,6 +3385,9 @@
         }
       }
     },
+    "Deselect All" : {
+
+    },
     "Developer" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3369,6 +3422,9 @@
           }
         }
       }
+    },
+    "Dictionary" : {
+
     },
     "Dismiss" : {
       "extractionState" : "manual",
@@ -3837,6 +3893,9 @@
           }
         }
       }
+    },
+    "Edit the file name. Changing the extension may affect how the file is opened." : {
+
     },
     "Enable Liquid Glass" : {
       "extractionState" : "manual",
@@ -4753,6 +4812,15 @@
           }
         }
       }
+    },
+    "Extract Dylibs" : {
+
+    },
+    "Extract from %@" : {
+
+    },
+    "Extract Icons" : {
+
     },
     "Failed to download, check your internet connection and try again." : {
       "extractionState" : "manual",
@@ -6604,6 +6672,9 @@
         }
       }
     },
+    "Import IPA" : {
+
+    },
     "Import Pairing File" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -7400,6 +7471,9 @@
         }
       }
     },
+    "Key" : {
+
+    },
     "Learn more about how to setup a repository…" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -8039,6 +8113,12 @@
         }
       }
     },
+    "New Entry" : {
+
+    },
+    "New Item" : {
+
+    },
     "Nickname (Optional)" : {
       "comment" : "Certificate custom nickname",
       "extractionState" : "manual",
@@ -8644,6 +8724,15 @@
           }
         }
       }
+    },
+    "Null" : {
+
+    },
+    "Null (no value)" : {
+
+    },
+    "Number" : {
+
     },
     "OK" : {
       "extractionState" : "manual",
@@ -10635,6 +10724,12 @@
         }
       }
     },
+    "Rename" : {
+
+    },
+    "Rename File" : {
+
+    },
     "Replace Substrate with ElleKit" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -11577,6 +11672,9 @@
         }
       }
     },
+    "Saved" : {
+
+    },
     "Screenshots" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -11731,6 +11829,12 @@
         }
       }
     },
+    "Select" : {
+
+    },
+    "Select All" : {
+
+    },
     "Select Alternative Icon" : {
       "comment" : "Select custom alternative app icon",
       "extractionState" : "manual",
@@ -11791,6 +11895,9 @@
         }
       }
     },
+    "Select Dylibs to Keep" : {
+
+    },
     "Select entitlements file" : {
       "comment" : "Select custom entitlements for the app",
       "extractionState" : "manual",
@@ -11850,6 +11957,9 @@
           }
         }
       }
+    },
+    "Select Icons to Keep" : {
+
     },
     "Semi Local" : {
       "extractionState" : "manual",
@@ -14286,6 +14396,9 @@
         }
       }
     },
+    "Type" : {
+
+    },
     "Unknown" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -14942,6 +15055,9 @@
           }
         }
       }
+    },
+    "You changed the file’s extension. Are you sure you want to rename it to “%@”?\n" : {
+
     },
     "Your pairing file is invalid and is incompatible with your device, please import a valid pairing file." : {
       "extractionState" : "manual",
