@@ -13,6 +13,7 @@ struct AppearanceTintColorView: View {
 	private let _tintOptions: [(name: String, hex: String)] = [
 		("Default", 		"#848ef9"),
 		("V2", 				"#B496DC"),
+		("Red",				"#FF0000"),
 		("Berry",   		"#ff7a83"),
 		("Cool Blue", 		"#4161F1"),
 		("Fuchsia", 		"#FF00FF"),
