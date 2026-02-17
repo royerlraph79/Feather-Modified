@@ -33,17 +33,18 @@ struct SettingsView: View {
 		return _certificates[_storedSelectedCert]
 	}
 
-    
+#if false
     private let _donationsUrl = "https://github.com/sponsors/khcrysalis"
+#endif
     private let _githubUrl = "https://github.com/khcrysalis/Feather"
-    
+	
     // MARK: Body
     var body: some View {
         NBNavigationView(.localized("Settings")) {
             Form {
-                
+#if false                
                 _feedback()
-                
+#endif                
                 Section {
                     NavigationLink(destination: AppearanceView()) {
                         Label(.localized("Appearance"), systemImage: "paintbrush")
@@ -100,6 +101,8 @@ struct SettingsView: View {
 
 // MARK: - View extension
 extension SettingsView {
+
+#if false
     @ViewBuilder
     private func _feedback() -> some View {
         Section {
@@ -133,7 +136,8 @@ extension SettingsView {
             Text(.localized("If any issues occur within the app please report it via the GitHub repository. When submitting an issue, make sure to submit detailed information."))
         }
     }
-    
+#endif
+	
     @ViewBuilder
     private func _directories() -> some View {
         NBSection(.localized("Misc")) {
