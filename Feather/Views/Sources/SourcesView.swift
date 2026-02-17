@@ -13,7 +13,7 @@ import NimbleViews
 // MARK: - View
 struct SourcesView: View {
 	@Environment(\.horizontalSizeClass) private var horizontalSizeClass
-	#if !NIGHTLY && !DEBUG
+	#if false
 	@AppStorage("Feather.shouldStar") private var _shouldStar: Int = 0
 	#endif
 	@StateObject var viewModel = SourcesViewModel.shared
@@ -112,7 +112,7 @@ struct SourcesView: View {
 		.task(id: Array(_sources)) {
 			await viewModel.fetchSources(_sources)
 		}
-		#if !NIGHTLY && !DEBUG
+		#if false
 		.onAppear {
 			guard _shouldStar < 6 else { return }; _shouldStar += 1
 			guard _shouldStar == 6 else { return }
